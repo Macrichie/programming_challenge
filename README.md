@@ -3,3 +3,7 @@
 
 - B) In the first loop, I am just generating the sum of the sub-array of the first 4 elements.
 - C) In the second loop, I am traversing a sliding window - at each iteration, I am deducting the first element from left and adding next element to the right. And after doing this, updaing the max_so_far to its highest value, by comparing it to its previous hightest value.
+
+## INSTRUCTIONS
+- Main solution on master branch
+- Check second solution on branch second_sol

@@ -1,7 +1,7 @@
 /*Programming Challenge:
 Given an array with integers (both positive and negative) in any random order. Write a function that returns a sub-array of a given size with the largest sum.
 */
-
+/*
 // First Solution
 
 function maxSubArrays(arr, subArr) {
@@ -25,8 +25,9 @@ function maxSubArrays(arr, subArr) {
 }
 
 console.log(maxSubArrays([-2, 1, -3, 4, -1, 2, 1, -5, 4], 4)); // 6
+*/
 
-/*
+
 // Second Solution
 
 let maxSubArrays = function(arr) {
@@ -45,5 +46,5 @@ let maxSubArrays = function(arr) {
     return sum;
 }
 
-console.log(maxSubArrays([-2, 1, -3, 4, -1, 2, 1, -5, 4]));
-*/
+console.log(maxSubArrays([-2, 1, -3, 4, -1, 2, 1, -5, 4])); // 6
+
