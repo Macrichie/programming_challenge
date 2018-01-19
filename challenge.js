@@ -24,7 +24,7 @@ function maxSubArrays(arr, subArr) {
     return maxSub;
 }
 
-console.log(maxSubArrays([-2, 1, -3, 4, -1, 2, 1, -5, 4], 4));
+console.log(maxSubArrays([-2, 1, -3, 4, -1, 2, 1, -5, 4], 4)); // 6
 
 /*
 // Second Solution
